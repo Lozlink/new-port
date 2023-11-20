@@ -78,7 +78,10 @@ export default  class Resume extends Component {
               }
             </div> 
          </div>
-
+         <div className='resume-container'>
+          <p className="download-resume">You can view my entire resume <a href={require('../../src/Mark Mekhayl CV.pdf')}><strong>here</strong></a></p>
+         </div>
+          
 
          {/* <div className="row skill">
 
@@ -115,6 +118,7 @@ export default  class Resume extends Component {
          </div> */}
 
       </section>
+      
     );
   }
 }
