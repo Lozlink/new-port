@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"https://markmekhayl.vercel.app/",
     "name": "Mark Mekhayl",
     "role": "Junior Web Developer || Instructional Associate",
     "linkedinId":"mark-mekhayl",
@@ -19,6 +19,7 @@ let resumeData = {
     "aboutme":"Hey, Mark here! A Junior Developer with 6 years of experience in diverse sales roles within various industries. After completing and subsequently becoming an Instuctor Associate in a full stack software development course, I am now seeking a role where I can add value to a business through applying my passion for technology and leveraging my past experience in sales. My passion for technology drives me to find innovative solutions to problems, while my sales background gives me valuable insights into customer needs and market trends.",
     "address":"Sydney, Australia",
     "website":<a href="https://github.com/Lozlink">GitHub</a>,
+    "email": <a href="mark.mekhayl@gmail.com">Email</a>,
     "education":[
       {
         "UniversityName":"Western Sydney University",
@@ -36,7 +37,7 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"General Assembly",
-        "specialization":"Instructional Associate",
+        "specialization":"Software Engineering Instructional Associate",
         "MonthOfLeaving":"",
         "YearOfLeaving":" March 2023 - Present",
       },
