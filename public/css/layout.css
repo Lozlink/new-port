@@ -876,7 +876,10 @@ form label {
 
 }
 
-.form-submission {text-align: center;}
+.form-submission {
+   text-align: center;
+   padding-left: 180px;
+}
 
 /* Twitter Feed */
 #twitter {
