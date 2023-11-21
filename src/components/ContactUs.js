@@ -14,7 +14,7 @@ const ContactUs = () => {
     emailjs.sendForm('service_ekcj0qm','template_9tsmw4s', form.current, 'sMEn1MdPWC3oHYXc7')
       .then((result) => {
         console.log(result.text)
-        isSubmitted(true)
+        setIsSubmitted(true)
 
         setTimeout( () => {
           setIsSubmitted(false)
