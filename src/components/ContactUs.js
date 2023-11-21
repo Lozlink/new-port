@@ -4,7 +4,9 @@ import emailjs from '@emailjs/browser'
 const ContactUs = () => {
   
   const [isSubmitted, setIsSubmitted] = useState(false);
-
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
   const form = useRef();
 
@@ -18,6 +20,9 @@ const ContactUs = () => {
 
         setTimeout( () => {
           setIsSubmitted(false)
+          setName('')
+          setEmail('')
+          setMessage('')
         }, 5000)
       }, (error) => {
         console.log(error.text)
@@ -33,13 +38,13 @@ const ContactUs = () => {
               </p>
             <form ref={form} onSubmit={sendEmail} className='form' >
                 <label htmlFor="" className='form-label'>Name:</label>
-                <input type="text" placeholder='Name' name='user_name'/>
+                <input type="text" placeholder='Name' name='user_name' value={name} onChange={e => setName(e.target.value)}/>
 
                 <label htmlFor="" className='form-label'>Email:</label>
-                <input type="text" placeholder='Email' name='user_email'/>
+                <input type="text" placeholder='Email' name='user_email' value={email} onChange={e => setEmail(e.target.value)}/>
                 
                 <label htmlFor="" className='form-label'>Message:</label>
-                <textarea name="message" id="" cols="30" rows="3" placeholder='Please enter your message here'/>
+                <textarea name="message" id="" cols="30" rows="3" placeholder='Please enter your message here' value={message} onChange={e => setMessage(e.target.value)}/>
 
                 <input type="submit" value="Send" className='submit-form'/>
                 
