@@ -24,13 +24,13 @@ const ContactUs = () => {
               Feel free to contact me for any work opportunities or questions by filling out the form below
               </p>
             <form ref={form} onSubmit={sendEmail} className='form' >
-                <label htmlFor="">Name:</label>
+                <label htmlFor="" className='form-label'>Name:</label>
                 <input type="text" placeholder='Name' name='user_name'/>
 
-                <label htmlFor="">Email:</label>
+                <label htmlFor="" className='form-label'>Email:</label>
                 <input type="text" placeholder='Email' name='user_email'/>
                 
-                <label htmlFor="">Message:</label>
+                <label htmlFor="" className='form-label'>Message:</label>
                 <textarea name="message" id="" cols="30" rows="3" placeholder='Please enter your message here'/>
 
                 <input type="submit" value="Send" className='submit-form'/>

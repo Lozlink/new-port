@@ -298,9 +298,8 @@
    #contact .section-head p.lead { text-align: center;}
 
    /* form */
-   #contact label {
-      float: none;
-      width: 100%;
+   .form-label {
+      text-align: right;
    }
    #contact input,
    #contact textarea,
@@ -362,6 +361,12 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+   /* Contact form */
+
+   .form-label {
+      text-align: left;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */
