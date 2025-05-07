@@ -76,6 +76,14 @@ let resumeData = {
       }
     ],
     "portfolio":[
+      
+      {
+        "name":"legal-template",
+        "description":"Was one of my freelancer jobs, removed any branding relating to client. .",
+        "imgurl":"images/legal.png",
+        "link": "https://legal-template.vercel.app/"
+        
+      },
       {
         "name":"Budgiet",
         "description":"Budgiet is a simple Budgeting tool that takes user authentication into effect and allows end users to manage their finances. Utilizing React.js for the front end, node.js for the backend, and PSQL as a persisting database to store users and their accounts.",
